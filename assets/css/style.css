@@ -23,7 +23,7 @@ html{
     position: relative;
     flex-direction: column;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 4rem;
     height: 100vh;
     padding-left: 18rem;
     padding-top: 4rem;
@@ -55,7 +55,7 @@ html{
 }
 
 span{
-    color:rgb(255, 255, 255);
+    color:rgb(241, 241, 241);
     text-shadow: 4px 4px 2px rgba(0,0,0,0.25);
     font-size: 1.5rem ;
 
@@ -69,10 +69,31 @@ span{
   border-radius: 4px;
   text-decoration: none;
   transition: background-color  1s;
+  gap: 15rem;
+  
 }
 
 .botao:hover{
   background-color: rgb(32, 154, 158);
+}
+
+#cabecalho div{
+  font-size: medium;
+  display: flex;
+  color: aliceblue;
+  justify-content:center;
+  font-size: 1.5rem;
+}
+
+#cabecalho img{
+  height: 200px;
+  border-radius: 50%;
+  width: 200px;
+  bottom: 50%;
+  gap: 16rem;
+  display: flex;
+  margin-top: 20%;
+
 }
 
 #secao-apresentacao {
@@ -83,10 +104,11 @@ span{
 }
 
 #secao-apresentacao img{
-  height: 200px;
+  height: 350px;
   border-radius: 50%;
-  width: 200px;
+  width: 350px;
   bottom: 50%;
+  
 }
 
 #secao-apresentacao div{
@@ -95,7 +117,22 @@ span{
   flex-direction: column;
   align-items: flex-start;
   max-width: 40%;
+  margin-left: 5%;
+  font-size: large;
+  
 }
+
+
+
+
+/*#secao-apresentacao p{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: wrap;
+  max-width: 40%;
+
+}*/
 
 
 /*#Centro{
