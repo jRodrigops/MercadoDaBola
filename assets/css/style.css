@@ -38,7 +38,7 @@ body{
 /*Pseudo Elemento*/
   header::before {
     content: '';
-    background-image: url('../images/oia.jpg');
+    background-image: url('../images/soccer.jpg');
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -59,12 +59,15 @@ body{
     color:rgb(255, 255, 255);
     text-shadow: 4px 4px 2px rgba(0,0,0,0.25);
     font-size: 4rem ;
+    margin-left: 19rem;
+
   }
 
 span{
     color:rgb(241, 241, 241);
     text-shadow: 4px 4px 2px rgba(0,0,0,0.25);
-    font-size: 1.5rem ;
+    font-size: 2rem ;
+    margin-left: 20rem;
 
 }
 
@@ -93,13 +96,13 @@ span{
 }
 
 #cabecalho img{
-  height: 200px;
-  border-radius: 100%;
-  width: 200px;
-  bottom: 50%;
+  height: 500px;
+  width: 850px;
   gap: 16rem;
   display: flex;
-  margin-top: 10%;
+  margin-left: 15rem;
+  margin-top: -3rem;
+  
 
 }
 
