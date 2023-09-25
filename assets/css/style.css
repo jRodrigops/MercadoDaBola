@@ -170,6 +170,7 @@ span{
   display: flex;
   height: 50vh;
   padding: 6rem;
+  background-color: #c2c2c2;
 }
 
 #secao-apresentacao img{
@@ -190,8 +191,8 @@ span{
 }
 
 #secao-projetos{
-  height: 100vh;
-  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  background-color: rgb(177, 151, 151);
 }
 
 
@@ -217,7 +218,6 @@ span{
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  margin-top: 5%;
 
 }
 
@@ -253,8 +253,9 @@ span{
 }
 
 #secao-orcamento{
-  height: 100vh;
+  height: 70vh;
   padding: 3rem;
+  background-color: #93b199;
 }
 
 #form-orcamento{
