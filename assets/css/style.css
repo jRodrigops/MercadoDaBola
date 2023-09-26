@@ -168,7 +168,7 @@ span{
 
 #secao-apresentacao {
   display: flex;
-  height: 50vh;
+  height: 60vh;
   padding: 6rem;
   background-color: #c2c2c2;
 }
@@ -192,7 +192,7 @@ span{
 
 #secao-projetos{
   height: 70vh;
-  background-color: rgb(177, 151, 151);
+  background-color: #c2c2c2
 }
 
 
