@@ -27,22 +27,29 @@ function calcular(){
     //R$ 100 por pagina
     let qtde = campoQtde.value 
     let valor = qtde * 20
+    let taxaDeUrgencia =0
    
-    if(campotipo.value == 2) valor += 1000
+    if(campotipo.value == 2) valor += 50
+
+    if(campotipo.value == 2) taxaDeUrgencia += 5
+
     if(campoLayoutSim.checked) valor += qtde * 50
+
+    if(campoLayoutSim.checked) taxaDeUrgencia+= 8
     
     if(campoJs.checked) valor *= 1.2
 
+    if(campoJs.checked) taxaDeUrgencia += 9
 
-    let taxaDeUrgencia = 1 - campoPrazo.value * 0.04
+
+
+
+
+    taxaDeUrgencia = 1 + campoPrazo.value * 0.2
     valor *= 1 + taxaDeUrgencia
     
-    
-
-
     console.log(tipo.value)
-    output.innerText = `R$ ${valor}`
- 
+    output.innerText = `R$ ${valor.toFixed(2)}`
 }
 
 
