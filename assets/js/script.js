@@ -26,15 +26,18 @@ campoPrazo.addEventListener("input", function(){
 function calcular(){
     //R$ 100 por pagina
     let qtde = campoQtde.value 
-    let valor = qtde * 100
+    let valor = qtde * 20
    
     if(campotipo.value == 2) valor += 1000
     if(campoLayoutSim.checked) valor += qtde * 50
     
-    if(campoJs.checked) valor *= 1.1
+    if(campoJs.checked) valor *= 1.2
 
-    let taxaDeUrgencia = 1 - campoPrazo.value * 0.05
+
+    let taxaDeUrgencia = 1 - campoPrazo.value * 0.04
     valor *= 1 + taxaDeUrgencia
+    
+    
 
 
     console.log(tipo.value)

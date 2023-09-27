@@ -71,21 +71,31 @@ span{
 
 }
 
-.botao{
+.cabecalho-botoes {
+  display: flex; /* Usa flexbox para colocar os botões lado a lado */
+  gap: 28rem; /* Espaçamento entre os botões */
+}
+
+.botao {
   background-color: var(--primary-color);
   color: var(--font-default);
-  font-family: 'poppins' ;
+  font-family: 'poppins';
   padding: 1rem 2rem;
   border-radius: 6px;
   text-decoration: none;
-  transition: background-color  1s;
-  font-size: 1.5rem;
-  margin-left: 33%;
+  transition: background-color 1s;
+  font-size: 1rem;
 }
 
 .botao:hover{
   background-color: rgb(32, 154, 158);
 }
+
+.espaco {
+  flex-grow: 1rem; /* Faz o espaço crescer para ocupar o espaço disponível */
+}
+
+
 
 #cabecalho div{
   font-size: medium;
@@ -129,7 +139,7 @@ span{
   position: absolute;
   top: 55%; 
   right: 15%;
-
+  left: -3rem;
 
 }
 
@@ -155,7 +165,7 @@ span{
   align-items: center;
   height: 50%;
   margin-top: 5%;
-  gap: 30rem;
+  gap: 25rem;
 
 }
 
