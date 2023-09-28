@@ -29,11 +29,11 @@ function calcular(){
     let valor = qtde * 20
     let taxaDeUrgencia =0
    
-    if(campotipo.value == 2) valor += 50
+    if(campotipo.value == 2) valor += 25
 
     if(campotipo.value == 2) taxaDeUrgencia += 5
 
-    if(campoLayoutSim.checked) valor += qtde * 50
+    if(campoLayoutSim.checked) valor += qtde * 25
 
     if(campoLayoutSim.checked) taxaDeUrgencia+= 8
     
@@ -45,7 +45,7 @@ function calcular(){
 
 
 
-    taxaDeUrgencia = 1 + campoPrazo.value * 0.2
+    taxaDeUrgencia = 1 + campoPrazo.value * 0.02
     valor *= 1 + taxaDeUrgencia
     
     console.log(tipo.value)
